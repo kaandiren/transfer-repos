@@ -5,17 +5,17 @@ First you should create a repository in the repo-hub such as GitHub/Bitbucket/Gi
 
 Then clone your repo you want to transfer.
 
-git clone <repo-you-want-to-transfer>
+`git clone <repo-you-want-to-transfer>`
 
 In this step you should move your shell script into the cloned directory.
 
-mv <path>/.pushAll.sh <directory-path-of-cloned-repo>
+`mv <path>/.pushAll.sh <directory-path-of-cloned-repo>`
 
 Finally all you need to do execute the script from the path. It takes the new repo-hub URL parameter 
 
-cd <directory-path-of-cloned-repo>
+`cd <directory-path-of-cloned-repo>`
 
-./pushAll.sh "<new-URL-of-git>"
+`./pushAll.sh "<new-URL-of-git>"`
 
 Congratulations! You copied all your tags, branches, files and etc.
 
